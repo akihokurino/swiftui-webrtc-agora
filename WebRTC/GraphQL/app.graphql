@@ -1,0 +1,5 @@
+query AgoraToken($channelName: String!) {
+    agoraToken(channelName: $channelName) {
+        token
+    }
+}

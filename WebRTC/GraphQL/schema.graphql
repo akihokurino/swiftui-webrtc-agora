@@ -1,0 +1,11 @@
+#
+type AgoraToken {
+  #
+  token: String!
+}
+
+#
+type Query {
+  #
+  agoraToken(channelName: String!): AgoraToken!
+}
